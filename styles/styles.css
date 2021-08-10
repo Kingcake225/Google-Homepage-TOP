@@ -1,0 +1,23 @@
+body, a {
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: #757575;
+    height: 100%;
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Link and list Styles */
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #757575;
+}
+
+/* ---------- */
+
