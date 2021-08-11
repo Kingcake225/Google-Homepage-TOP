@@ -8,7 +8,8 @@
 }
 
 body {
-    font-size: 13px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
 }
 
 /* Link and list Styles */
@@ -23,10 +24,13 @@ a:hover {
 
 a:visited {
     text-decoration: none;
-    color: var(--text-color);
+    color: black;
 }
 
 /* ---------- */
+
+
+/* Top Navigation */
 
 nav {
     height: 60px;
@@ -39,11 +43,59 @@ nav {
     margin-left: 15px;
 }
 
-.nav-right {
+.nav-right, .gmail-and-images {
     margin-right: 15px; 
+    display: flex;
+    align-items: center;
 }
 
-.nav-left-item, .nav-right-item {
-    margin-right: 5px;
+.gmail-and-images, .apps-and-pfp {
+    display: flex;
+    align-items: center;
+}
+
+#apps-icon {
+    padding-right: 12px;
+}
+
+.nav-right img {
+    border-radius: 50%;
+}
+
+.nav-left-item, .nav-right-item {                 
     padding: 5px;
 }
+
+/* ---------- */
+
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------- */
+
+
+/* Footer */
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 47px;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-item {
+    padding: 15px;
+}
+
+/* ---------- */
