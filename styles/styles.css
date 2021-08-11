@@ -1,5 +1,6 @@
 :root {
     --text-color: black;
+    --footer-text-color: rgb(112, 117, 122);
 }
 
 * {
@@ -78,6 +79,29 @@ main {
     align-items: center;
 }
 
+.search-input {
+    position: relative;
+    display: flex;
+    min-width: 100px;
+}
+
+.search {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+  }
+
+.search-icon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 14px;
+  }
+
 /* ---------- */
 
 
@@ -92,6 +116,19 @@ main {
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: rgb(218, 220, 224);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.bottom-footer a {
+    color: var(--footer-text-color);
+}
+
+.bottom-footer img {
+    padding-right: 5px;
+    height: 14px;
+    width: 14px;
 }
 
 .footer-item {
